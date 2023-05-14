@@ -1,0 +1,23 @@
+           Valor = sc.nextInt();
+            System.out.println("Escriba el descuento respectivo del producto");
+            Descuento = sc.nextDouble();
+            System.out.println("Escriba el promedio total de las ventas en el mes 1");
+            Mes1 = sc.nextDouble();
+            System.out.println("Escriba el promedio total de las ventas en el mes 2");
+            Mes2 = sc.nextDouble();
+            System.out.println("Escriba el promedio total de las ventas en el mes 3");
+            Mes3 = sc.nextDouble();
+            Codigos[x] = Codigo;
+            Nombres[x] = Nombre;
+            Valores[x] = Valor;
+            Descuentos[x] = Descuento;
+            Mesuno[x] = Mes1;
+            Mesdos[x] = Mes2;
+            Mestres[x] = Mes3;
+        }
+        for(int x = 0; x < Cant_Productos; x++){
+            TOTAL = TOTAL + ((Mesuno[x]*Descuentos[x])+(Mesdos[x]*Descuentos[x])+(Mestres[x]*Descuentos[x])/3)/Cant_Productos;
+        }
+        System.out.println("El total de los tres meses con descuento incluido es: "+ TOTAL);
+    }
+}
