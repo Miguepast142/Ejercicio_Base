@@ -43,3 +43,6 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
   4.  *Obtener resultado de las ganancias y pérdidas.*
   5.  *Obtener valores finales del programa.*
 
+**COMPROBACION  DEL ANALISIS DEL EJERCICIO REALIZADO EN JIRASOFTWARE**https://github.com/Miguepast142/Ejercicio_Base/blob/main/Imagenes/PRUEBA_JIRA.png
+
+
