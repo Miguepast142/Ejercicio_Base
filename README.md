@@ -45,9 +45,9 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
 
 * * *
 **COMPROBACION  DEL ANALISIS DEL EJERCICIO REALIZADO EN JIRASOFTWARE:**
-https://github.com/Miguepast142/Ejercicio_Base/blob/main/Imagenes/PRUEBA_JIRA.png
 
-* * *
+![Image 1](Imagenes/PRUEBA_JIRA.png)
+
 
 **APROXIMACION CASO DE USO**
 * * *
@@ -69,3 +69,9 @@ https://github.com/Miguepast142/Ejercicio_Base/blob/main/Imagenes/PRUEBA_JIRA.pn
 
 * * *
 **IMAGEN REFERENTE A LA APROXIMACION DEL CASO DE USO**
+![Image 2](Imagenes/Caso de Uso.png)
+
+
+**APROXIMACION DIAGRAMA DE FLUJO**
+* * *
+
