@@ -69,9 +69,86 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
 
 * * *
 **IMAGEN REFERENTE A LA APROXIMACION DEL CASO DE USO**
-![Image 2](Imagenes/Caso de Uso.png)
+![Image 2](Imagenes/Caso%20de%20Uso.png)
 
 
 **APROXIMACION DIAGRAMA DE FLUJO**
 * * *
 
+![Image 3](Imagenes/Diagrama%20en%20blanco.png)
+
+*Entender el anterior diagrama no debe presentar mayores problemas. Sin embargo, es conveniente realizar las siguientes aclaraciones y comentarios:*
+
+* *Aunque se puede condensar el código incluyendo las instrucciones del segundo “Para” dentro del primero, de manera intencional se ha dejado así intencionalmente para delimitar funcionalmente cada bloque de código.*
+* *En el algoritmo se captura información, como el código, el nombre, el valor y el descuento, que no se utiliza; sin embargo, esta información se mantiene porque posteriormente puede ser útil para ampliar la funcionalidad de la aplicación. Inicialmente el algoritmo no contempla validaciones como impedir el doble ingreso de un mismo código del producto.*
+
+**APROXIMACION PSEUDOCODIGO**
+* * *
+
+INICIO
+
+      Caracteres: Codigos [50], Nombres [50], Valores [50], Descuentos [50] 
+      
+      Real: Mesuno [50], Mesdos [50], Mestres [50] 
+      
+      Caracteres: Codigo, Nombre, Valor, Descuento Entero: Cant_ProductoS, x 
+      
+      Real: Mes1, Mes2, Mes3, TOTAL <- 0 
+      
+      Imprimir: ‘Digite la cantidad de productos:’ 
+      
+      Asignar: Cant_Productos 
+      
+      Para x=0 hasta Cant_Productos - 1, 1 
+      
+      Imprimir: ‘Digite el codigo del producto:’ 
+      
+      Asignar: Codigo 
+      
+      Imprimir: ‘Digite el nombre del producto:’ 
+      
+      Asignar: Nombre 
+      
+      Imprimir: ‘Digite el valor del producto:’ 
+      
+      Asignar: Valor
+      
+      Imprimir: ‘Digite el valor del mes1:’ 
+      
+      Asignar: Mes1 
+      
+      Imprimir: ‘Digite el valor del mes2:’ 
+      
+      Asignar: Mes2 
+      
+      Imprimir: ‘Digite el valor del mes3:’ 
+      
+      Asignar: Mes3 
+      
+      Codigos_Producto [x]<-Codigo
+      
+      Nombres [x] <- Nombre 
+      
+      Valores [x] <- Valor
+      
+      Descuentos [x] <- Descuento 
+      
+      Mesuno[x] <- Mes1
+      
+      Mesdos[x] <- Mes2 
+      
+      Mestres[x] <- Mes3 
+      
+      finPara 
+      
+      Para x=0 hasta Cant_Productos -1, 1
+      
+      TOTALl+(((Mesuno[x]*Descuentos[x])+(Mesdos[x]*Descuentos[x])+(Mestres[x]*Descuentos[x]))/3)/ Cant_Productos 
+      
+      finPara 
+      
+      Imprimir: ‘El Total con descuento incorporado es:’ + TOTAL 
+      
+FIN
+
+* * *
