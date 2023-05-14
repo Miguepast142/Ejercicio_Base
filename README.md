@@ -43,6 +43,29 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
   4.  *Obtener resultado de las ganancias y pérdidas.*
   5.  *Obtener valores finales del programa.*
 
-**COMPROBACION  DEL ANALISIS DEL EJERCICIO REALIZADO EN JIRASOFTWARE**https://github.com/Miguepast142/Ejercicio_Base/blob/main/Imagenes/PRUEBA_JIRA.png
+* * *
+**COMPROBACION  DEL ANALISIS DEL EJERCICIO REALIZADO EN JIRASOFTWARE:**
+https://github.com/Miguepast142/Ejercicio_Base/blob/main/Imagenes/PRUEBA_JIRA.png
 
+* * *
 
+**APROXIMACION CASO DE USO**
+* * *
+
+*Descripcion caso de uso:*
+
+- *Nombre: Calculo con descuentos de dispositivos electrónicos.*
+* *Actores: Creador del Sistema Operativo.*
+* *Propósito: Guardar código, nombre, valor y descuento del dispositivo para calcular el valor total de las ganancias y pérdidas.*
+* **Curso Normal de Eventos:**
+
+1.	El creador ingresa la cantidad de productos
+2.	El creador ingresa el código, nombre, valor, descuento, mes 1, mes 2 y el mes 3 del producto en el Almacén. 
+3.	Se calcula el valor total a partir de:   
+( ∑((mes 1*descuento),( mes 2* descuento),( mes 3* descuento) / Total Productos) / Cant_Productos 
+4.	Se Muestra el valor total de los productos en los tres meses.
+
+* *Postcondiciones: Sistema de ganancias y pérdidas en Almacenes éxitos con descuentos en los tres meses calculado.*
+
+* * *
+**IMAGEN REFERENTE A LA APROXIMACION DEL CASO DE USO**
