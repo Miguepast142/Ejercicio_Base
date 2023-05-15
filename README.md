@@ -46,7 +46,7 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
 * * *
 **COMPROBACION  DEL ANALISIS DEL EJERCICIO REALIZADO EN JIRASOFTWARE:**
 
-![Image 1](Imagenes/PRUEBA_JIRA.png)
+![Image 1](Imagenes/JIRA_SOFTWARE.PNG)
 
 
 **APROXIMACION CASO DE USO**
