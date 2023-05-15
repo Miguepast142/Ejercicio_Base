@@ -26,16 +26,16 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
 
 **Escenario 1:** *Ingresar la información correspondiente de los dispositivos electrónicos:*
 
-*Given que soy el creador del sistema operativo.*
+**Given:** *Que soy el creador del sistema operativo.*
 
   1.  *Ingreso principalmente el código del producto.*
   2.  *Ingreso correctamente el nombre del producto.*
   3.  *Ingreso correctamente el valor del producto.*
   4.  *Ingreso como finalización el descuento del producto.*
   
-*When seleccione la opción de calcular ganancias o pérdidas en los 3 meses.*
+**When:** *Seleccione la opción de calcular ganancias o pérdidas en los 3 meses.*
   
- **Escenario 2:** *Guardar exitosamente los valores de los 3 meses totales del almacén:*
+ **Then:** *Guardar exitosamente los valores de los 3 meses totales del almacén:*
 
   1.  *Incluyendo todos los datos principales mencionados anteriormente.*
   2.  *Incluyendo Descuentos.*
