@@ -69,7 +69,7 @@ Todo en exclusividad para ver si al observar los descuentos se obtienen ganancia
 
 * * *
 **IMAGEN REFERENTE A LA APROXIMACION DEL CASO DE USO**
-![Image 2](Imagenes/Caso%20de%20Uso.png)
+![Image 2](Imagenes/CASOUSO.png)
 
 
 **APROXIMACION DIAGRAMA DE FLUJO**
